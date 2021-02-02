@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+import React,{Component} from 'react';
+import {Navbar,NavItem,NavLink,NavbarToggler,NavbarBrand,Nav} from 'reactstrap';
+import {BrowserRouter,Switch,Route,Redirect}from 'react-router-dom';
+import Login from './Components/LoginComponent';
+import Register from './Components/RegisterComponent';
 import './App.css';
+import Header from './Components/Header';
+import Home from './Components/HomeComponent'
+import Footer from './Components/Footer';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+
+  render(){
+
+    return(
+      <div>
+        
+        <BrowserRouter>
+          <Header/>
+          
+              <Switch>
+                <Route path="/home" component={()=><Home/>} />
+                <Route exact path="/login" component={()=><Login/>} />
+                <Route exact path="/register" component={()=><Register/>} />
+                <Redirect to="/home"/>
+              </Switch> 
+            <Footer/>
+            
+        </BrowserRouter>
+      </div>
+      
+      
+        
+    );
+  }
 }
+
+
 
 export default App;
