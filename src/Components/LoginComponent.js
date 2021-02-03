@@ -24,7 +24,7 @@ class Login extends Component{
                             <button type="submit" class="btn btn-success w-50">Submit</button>
                             </div>
                         </form>
-                        <a className="text-center m-2" href="#">
+                        <a className="text-center m-2" href="/">
                             Forgor Password?
                         </a>
                     

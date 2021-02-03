@@ -33,7 +33,7 @@ class Register extends Component{
                             </div>
                             <div className="form-check">
                                 <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                                <label className="form-check-label" for="exampleCheck1">I accept the <a href="#">terms and condition</a></label>
+                                <label className="form-check-label" for="exampleCheck1">I accept the <a href="/">terms and condition</a></label>
                             </div>
                             <div className="text-center p-2">
                             <button type="submit" className="btn btn-success w-50">Submit</button>

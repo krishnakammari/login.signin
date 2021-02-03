@@ -31,19 +31,19 @@ class Footer extends Component{
                         <div className="col-5 offset-1 col-md-2">
                             <h5>More Links</h5>
                             <ul className="list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Menu</a></li>
-                                <li><a href='#'>Contact</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/">About</a></li>
+                                <li><a href="/">Menu</a></li>
+                                <li><a href='/'>Contact</a></li>
                             </ul>
                         </div>
                         <div className="col-5 offset-1 col-md-2">
                             <h5>Products</h5>
                             <ul className="list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Menu</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/">About</a></li>
+                                <li><a href="/">Menu</a></li>
+                                <li><a href="/">Contact</a></li>
                             </ul>
                         </div>
                     </div>

@@ -2,7 +2,7 @@
   "name": "login",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://krishnakammari.github.io/login.signin/",
+  "homepage": "https://krishnakammari.github.io/login/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.4",
